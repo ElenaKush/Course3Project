@@ -61,4 +61,4 @@ colnames(tidydf) <- tidydfnames
 
 head(tidydf)                        ## Printing a head of the tidy dataset
 head(df)                            ## Printing a head of the tidy dataset
-write.table(tidydf, "./ProjectResults/tidydf.txt", row.name=FALSE)
+write.table(tidydf, "./Course3Project/tidydf.txt", row.name=FALSE)
